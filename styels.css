@@ -1,0 +1,59 @@
+:root{
+  --color-primary-dark:#31261A;
+ --color-primary-lighr:#FAF4EA;
+ --color-brand-light: #819B57;
+ --color-brand-dark: #465929;
+}
+
+body {
+    color: var(--color-primary-dark);
+    font-family: Poppins, sans-serif;
+}
+
+/* Base */
+ul{
+    list-style-type: none;
+}
+
+/* button */
+.button {
+ color: var(--color-primary-lighr);
+ background-color: var(--color-brand-light);
+ border: 2px solid var(--color-brand-light);
+ border-radius: 8px  ;
+ cursor: pointer;
+}
+
+.button:hover {
+color: var(--color-brand-dark);
+background-color:transparent;
+}
+
+/* link */
+.link {
+color: var(--color-primary-lighr)
+}
+
+.link:hover {
+color: var(--color-brand-light);
+}
+
+/* hero section */
+.hero-title {
+color: var(--color-primary-lighr);
+font-family: Poppins,   sans-serif ;
+}
+
+.hero-title .accent {
+color:var(--color-brand-light);
+}
+
+/* advantager section */
+.advantager-list {
+color: var(--color-primary-lighr);
+background:var(--color-brand-light)
+}
+
+.section-title .accent {
+color: var(--color-brand-dark)
+}
